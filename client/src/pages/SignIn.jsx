@@ -59,6 +59,7 @@ export default function SignIn() {
           className="border p-3 rounded-lg"
           id="password"
           onChange={handleChange}
+          autocomplete="current-password"
         />
 
         <button
